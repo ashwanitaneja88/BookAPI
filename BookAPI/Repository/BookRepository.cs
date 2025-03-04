@@ -15,13 +15,13 @@ namespace BookAPI.Repository
          ),
          new(
                  2,
-                 "ML .NET",
+                 "ML.NET",
                 "Machine learning with .NET",
                 "Arthur Warne",
                  5000
          ),
             new(
-                          3,
+                 3,
                 "Java",
                 "Java spring",
                 "Shane Andrew",

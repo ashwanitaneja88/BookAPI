@@ -90,15 +90,24 @@ Returns all books.
 [
     {
         "id": 1,
-        "title": "1984",
-        "author": "George Orwell",
-        "year": 1949
+        "name": "ASP.NET",
+        "description":"ASP.Net Core with .Net 8"
+        "author": "Donald Macwilth",
+        "price": 1000
     },
     {
         "id": 2,
-        "title": "To Kill a Mockingbird",
-        "author": "Harper Lee",
-        "year": 1960
+        "name": "ML.NET",
+        "description": "Machine learning with .NET"
+        "author": "Arthur Warne",
+        "price": 5000
+    },
+    {
+        "id": 3,
+        "name": "Java",
+        "description": "Java Spring"
+        "author": "Shane Andrew",
+        "price": 3000
     }
 ]
 ```
@@ -111,10 +120,11 @@ Returns a book by ID.
 
 ```json
 {
-    "id": 1,
-    "title": "1984",
-    "author": "George Orwell",
-    "year": 1949
+        "id": 1,
+        "name": "ASP.NET",
+        "description":"ASP.Net Core with .Net 8"
+        "author": "Donald Macwilth",
+        "price": 1000
 }
 ```
 
@@ -126,9 +136,11 @@ Adds a new book.
 
 ```json
 {
-    "title": "Brave New World",
-    "author": "Aldous Huxley",
-    "year": 1932
+        "id": 4,
+        "name": "ASP.NET web api",
+        "description":"ASP.Net api with .Net core 8"
+        "author": "Donald Macwilth",
+        "price": 7000
 }
 ```
 
@@ -136,10 +148,11 @@ Adds a new book.
 
 ```json
 {
-    "id": 3,
-    "title": "Brave New World",
-    "author": "Aldous Huxley",
-    "year": 1932
+   "id": 4,
+   "name": "ASP.NET web api",
+   "description":"ASP.Net api with .Net core 8"
+   "author": "Donald Macwilth",
+   "price": 7000
 }
 ```
 
@@ -151,9 +164,11 @@ Updates an existing book. The full book object must be provided in the request. 
 
 ```json
 {
-    "title": "Brave New World",
-    "author": "Aldous Huxley",
-    "year": 1932
+   "id": 4,
+   "name": "ASP.NET web api 2",
+   "description":"ASP.Net api with .Net core 8"
+   "author": "Donald Macwilth Jr",
+   "price": 6500
 }
 ```
 
